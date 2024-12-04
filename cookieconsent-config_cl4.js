@@ -34,7 +34,7 @@ CookieConsent.run({
                     acceptAllBtn: "Tout accepter",
                     acceptNecessaryBtn: "Tout rejeter",
                     showPreferencesBtn: "Gérer les préférences",
-                    footer: "<a href=\"/cookies\">Politique de confidentialité</a>"
+                    footer: "<a href=\"/mentions-legales\">Politique de confidentialité</a>"
                 },
                 preferencesModal: {
                     title: "Préférences de cookies",
