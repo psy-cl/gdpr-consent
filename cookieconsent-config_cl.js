@@ -29,33 +29,33 @@ CookieConsent.run({
         translations: {
             fr: {
                 consentModal: {
-                    title: "Bonjour voyageur, c'est l'heure des cookies!",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+                    title: "Consentement de cookies!",
+                    description: "Avec votre accord nous aimerions utiliser des cookies nécessaires au bon fonctionnement du site.",
                     acceptAllBtn: "Tout accepter",
                     acceptNecessaryBtn: "Tout rejeter",
                     showPreferencesBtn: "Gérer les préférences",
-                    footer: "<a href=\"#link\">Politique de confidentialité</a>\n<a href=\"#link\">Termes et conditions</a>"
+                    footer: "<a href=\"#link\">Politique de confidentialité</a>"
                 },
                 preferencesModal: {
                     title: "Préférences de cookies",
                     acceptAllBtn: "Tout accepter",
                     acceptNecessaryBtn: "Tout rejeter",
                     savePreferencesBtn: "Sauvegarder les préférences",
-                    closeIconLabel: "Fermer la modale",
+                    closeIconLabel: "Fermer la popup",
                     serviceCounterLabel: "Services",
                     sections: [
                         {
                             title: "Utilisation des Cookies",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            description: ""
                         },
                         {
                             title: "Cookies Strictement Nécessaires <span class=\"pm__badge\">Toujours Activé</span>",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                            description: "",
                             linkedCategory: "necessary"
                         },
                         {
                             title: "Plus d'informations",
-                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"#yourdomain.com\">contact me</a>."
+                            description: "Pour toute question relative à ma politique en matière de cookies et à vos choix, contacter <a class=\"cc__link\" href=\"#claudelefort.com\">contactez moi</a>."
                         }
                     ]
                 }
